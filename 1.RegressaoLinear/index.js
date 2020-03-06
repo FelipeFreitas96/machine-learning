@@ -20,9 +20,10 @@ function regressaoLinear(xArr, yArr) {
     return tf.tensor(array);
 }
 
-regressaoLinear([1, 2, 3, 4, 5, 6], [1, 3, 5]).print();
 /* 
     Resultado:
         Tensor
             [1, 3, 5, 7, 9, 11]
 */
+
+regressaoLinear([1, 2, 3, 4, 5, 6], [1, 3, 5]).print();
